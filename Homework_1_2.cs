@@ -8,10 +8,11 @@ namespace Algorithms_Course_Part_1
 {
     class Homework12
     {
-       public void Run()
+        internal void Run()
         {
-
+            Console.WriteLine("Homework 2: O(N^3) - остальными операциями можно пренебречь"); ;
         }
     }
-
 }
+
+

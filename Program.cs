@@ -19,10 +19,10 @@ namespace Algorithms_Course_Part_1
                 Homework12 Homework_12 = new Homework12();
                 Homework_12.Run();
             }
-            else if (input == 2)
+            else if (input == 3)
             {
-                Homework12 Homework_12 = new Homework12();
-                Homework_12.Run();
+                Homework13 Homework_13 = new Homework13();
+                Homework_13.Run();
             }
         }
     }
