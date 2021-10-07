@@ -8,22 +8,18 @@ namespace Algorithms_Course_Part_1
         {
             Console.WriteLine("Please choose a Homework to run.");
             var input = Convert.ToInt32(Console.ReadLine());
-            
+
             if (input == 1)
             {
-                Homework11 Homework_11 = new Homework11();
-                Homework_11.Run();
+                Homework21 Homework_21 = new Homework21();
+                Homework_21.Run();
             }
             else if (input == 2)
             {
-                Homework12 Homework_12 = new Homework12();
-                Homework_12.Run();
-            }
-            else if (input == 3)
-            {
-                Homework13 Homework_13 = new Homework13();
-                Homework_13.Run();
+                Homework22 Homework_22 = new Homework22();
+                Homework_22.Run();
             }
         }
+        
     }
 }
